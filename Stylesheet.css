@@ -6,6 +6,7 @@
 .findYourCar {
     text-align: center;
     color: rgb(1, 1, 72);
+    font-family: "calibri";
     display: inline-block;
     background: rgb(240, 215, 69);
     border-radius: 5px;
@@ -13,10 +14,31 @@
     width: 20%;
 }
 
+.findYourCar:hover {
+    background:rgb(248, 228, 113);
+}
+
+.guarantee {
+    position: relative;
+    top: -45px;
+}
+/* Text Styling Begin */
 h1 {
     font-size: 75px;
-    color: rgb(1, 1, 72);
+    color: rgb(5, 51, 97);
 }
+
+h3 {
+    font-family: "calibri";
+    color: rgb(5, 51, 97);
+}
+
+p {
+    font-size: 24px;
+    color: rgb(240, 238, 238);
+    font-family: "calibri";
+}
+/* Text Styling End */
 
 .menuBar {
     display: flex;
@@ -29,11 +51,6 @@ h1 {
     align-items: center;
 }
 
-p {
-    font-size: 24px;
-    color: rgb(86, 79, 79);
-}
-
 .pageText {
     padding: 0px;
 }
@@ -42,10 +59,15 @@ p {
     display: inline-block;
     width: 90%;
     font-size: 20px;
+    font-family: "calibri";
     padding: 15px;
     background: white;
     border-radius: 10px;
-    border: 1px rgb(199, 196, 196) solid;
+    border: 2px rgb(199, 196, 196) solid;
+}
+
+.searchBar:hover {
+    border: blue 2px solid;
 }
 
 .topSection {
